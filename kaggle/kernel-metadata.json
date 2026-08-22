@@ -1,5 +1,5 @@
 {
-  "id": "niniflo/qdgrasp-phase0-cuda-smoke",
+  "id": "niniflo/qdgrasp-phase-0-cuda-hardware-smoke",
   "title": "QDGrasp Phase 0 CUDA Hardware Smoke",
   "code_file": "qdgrasp_phase0_cuda.ipynb",
   "language": "python",
