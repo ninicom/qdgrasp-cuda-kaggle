@@ -1,0 +1,32 @@
+{
+  "amp_train_steps": 3,
+  "checkpoint_resume": "pass",
+  "cuda_available": true,
+  "device_capability": [
+    7,
+    5
+  ],
+  "device_count": 2,
+  "device_memory_bytes": 15636037632,
+  "device_name": "Tesla T4",
+  "lightning": "2.6.5",
+  "losses": [
+    1.0195088386535645,
+    1.0773967504501343,
+    1.0419893264770508
+  ],
+  "mujoco": "3.12.0",
+  "mujoco_forward": "pass",
+  "numpy": "2.4.6",
+  "payload_sha256": "099ade0f1b0da8406aee0947321ce364de87c9c250513a831e69987233960aa2",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "python": "3.12.13",
+  "qdgrasp": "0.1.0a1",
+  "qdgrasp_commit": "5cc088580f16e7f6c8184981e85183c9db1ae4c6",
+  "qdgrasp_module": "qdgrasp",
+  "schema_version": 1,
+  "status": "pass",
+  "timestamp_utc": "2026-08-22T11:59:56.654888+00:00",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8"
+}

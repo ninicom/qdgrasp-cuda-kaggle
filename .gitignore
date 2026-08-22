@@ -1,7 +1,9 @@
 __pycache__/
 .ipynb_checkpoints/
 evidence/latest/
+evidence/run-*-error/
+evidence/*/phase0_cuda_smoke.py
+evidence/*/*.log
 *.pt
 *.pth
 *.ckpt
-

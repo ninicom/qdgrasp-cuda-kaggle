@@ -16,6 +16,8 @@ Notebook `kaggle/qdgrasp_phase0_cuda.ipynb` fail-closed và chỉ pass khi:
 
 Kết quả máy đọc được ghi thành `phase0_cuda_evidence.json` trong Kaggle output.
 Kaggle/GitHub tokens không được ghi vào notebook, output hoặc Git history.
+Mỗi run pass được lưu dưới `evidence/run-NNN-pass/` bằng evidence JSON và hash;
+raw worker log được giữ ở Kaggle vì chứa đường dẫn runtime tuyệt đối.
 
 ## Chạy
 
