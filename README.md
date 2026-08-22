@@ -9,7 +9,7 @@ Notebook `kaggle/qdgrasp_phase0_cuda.ipynb` fail-closed và chỉ pass khi:
 
 - Python là 3.11;
 - PyTorch là `2.11.0+cu128` và `torch.version.cuda == "12.8"`;
-- có GPU NVIDIA thật và tensor operation chạy trên device CUDA;
+- có GPU NVIDIA T4 (`sm_75`) thật và tensor operation chạy trên device CUDA;
 - AMP train-step, optimizer step và checkpoint resume chạy thành công;
 - Lightning Fabric import và MuJoCo forward pass thành công.
 - package `qdgrasp` được cài từ exact commit public và gọi API fail-closed.
